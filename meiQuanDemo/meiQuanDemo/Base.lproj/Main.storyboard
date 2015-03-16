@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CUz-kw-hNS">
+                                <rect key="frame" x="0.0" y="28" width="320" height="409"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YcI-n3-rTK">
+                                <rect key="frame" x="0.0" y="509" width="160" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="l5I-gS-1ol"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mn0-cp-YN2">
+                                <rect key="frame" x="0.0" y="446" width="320" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="bpC-AV-c9o"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iD8-qS-tuy">
+                                <rect key="frame" x="160" y="509" width="160" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="VM9-79-EgT"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YcI-n3-rTK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="1Du-xc-vkP"/>
+                            <constraint firstItem="iD8-qS-tuy" firstAttribute="leading" secondItem="YcI-n3-rTK" secondAttribute="trailing" id="DAg-QV-vxa"/>
+                            <constraint firstItem="CUz-kw-hNS" firstAttribute="leading" secondItem="mn0-cp-YN2" secondAttribute="leading" id="E5w-Y8-bnt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YcI-n3-rTK" secondAttribute="bottom" id="GU9-kx-KYE"/>
+                            <constraint firstItem="CUz-kw-hNS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="POs-Zu-JEE"/>
+                            <constraint firstItem="CUz-kw-hNS" firstAttribute="trailing" secondItem="mn0-cp-YN2" secondAttribute="trailing" id="Z2h-Bo-W3F"/>
+                            <constraint firstItem="iD8-qS-tuy" firstAttribute="baseline" secondItem="YcI-n3-rTK" secondAttribute="baseline" id="a0Y-vQ-9Di"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mn0-cp-YN2" secondAttribute="trailing" constant="-16" id="bJs-UF-qNX"/>
+                            <constraint firstItem="mn0-cp-YN2" firstAttribute="top" secondItem="CUz-kw-hNS" secondAttribute="bottom" constant="9" id="i8N-yB-xgL"/>
+                            <constraint firstItem="iD8-qS-tuy" firstAttribute="trailing" secondItem="mn0-cp-YN2" secondAttribute="trailing" id="lb9-L9-UCO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YcI-n3-rTK" secondAttribute="trailing" constant="144" id="lnO-P1-gAm"/>
+                            <constraint firstItem="YcI-n3-rTK" firstAttribute="top" secondItem="mn0-cp-YN2" secondAttribute="bottom" id="m41-yu-Dce"/>
+                            <constraint firstItem="mn0-cp-YN2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="xaq-aM-Cwe"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="imageView" destination="CUz-kw-hNS" id="HuS-h8-Oek"/>
+                        <outlet property="scrollView" destination="mn0-cp-YN2" id="mCC-eI-jec"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="487" y="428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mm.jpg" width="610" height="915"/>
+    </resources>
+</document>
