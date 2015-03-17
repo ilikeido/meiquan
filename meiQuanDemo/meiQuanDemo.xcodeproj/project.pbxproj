@@ -32,6 +32,13 @@
 		6D19ECD31AA70D9900A9F55C /* yellow-red.acv in Resources */ = {isa = PBXBuildFile; fileRef = 6D19ECCB1AA70D9900A9F55C /* yellow-red.acv */; };
 		6D19ECDB1AA71E1E00A9F55C /* SimpleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D19ECDA1AA71E1E00A9F55C /* SimpleImageViewController.m */; };
 		6D19ECDC1AA71F0800A9F55C /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1294EB1AA5A2DB00C63D25 /* libGPUImage.a */; };
+		DFE2C3431AB86E1D00BBD65D /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2C3381AB86E1D00BBD65D /* UIImage+Alpha.m */; };
+		DFE2C3441AB86E1D00BBD65D /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2C33A1AB86E1D00BBD65D /* UIImage+Resize.m */; };
+		DFE2C3451AB86E1D00BBD65D /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2C33C1AB86E1D00BBD65D /* UIImage+RoundedCorner.m */; };
+		DFE2C3461AB86E1D00BBD65D /* SPGripViewBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2C33F1AB86E1D00BBD65D /* SPGripViewBorderView.m */; };
+		DFE2C3471AB86E1D00BBD65D /* ZDStickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFE2C3401AB86E1D00BBD65D /* ZDStickerView.bundle */; };
+		DFE2C3481AB86E1D00BBD65D /* ZDStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE2C3421AB86E1D00BBD65D /* ZDStickerView.m */; };
+		DFE2C34D1AB86E3400BBD65D /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = DFE2C34C1AB86E3400BBD65D /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +98,18 @@
 		6D19ECCB1AA70D9900A9F55C /* yellow-red.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yellow-red.acv"; sourceTree = "<group>"; };
 		6D19ECD91AA71E1E00A9F55C /* SimpleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleImageViewController.h; sourceTree = "<group>"; };
 		6D19ECDA1AA71E1E00A9F55C /* SimpleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleImageViewController.m; sourceTree = "<group>"; };
+		DFE2C3371AB86E1D00BBD65D /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		DFE2C3381AB86E1D00BBD65D /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		DFE2C3391AB86E1D00BBD65D /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		DFE2C33A1AB86E1D00BBD65D /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		DFE2C33B1AB86E1D00BBD65D /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		DFE2C33C1AB86E1D00BBD65D /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		DFE2C33E1AB86E1D00BBD65D /* SPGripViewBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGripViewBorderView.h; sourceTree = "<group>"; };
+		DFE2C33F1AB86E1D00BBD65D /* SPGripViewBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGripViewBorderView.m; sourceTree = "<group>"; };
+		DFE2C3401AB86E1D00BBD65D /* ZDStickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZDStickerView.bundle; sourceTree = "<group>"; };
+		DFE2C3411AB86E1D00BBD65D /* ZDStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDStickerView.h; sourceTree = "<group>"; };
+		DFE2C3421AB86E1D00BBD65D /* ZDStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDStickerView.m; sourceTree = "<group>"; };
+		DFE2C34C1AB86E3400BBD65D /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +169,7 @@
 		6D1292811AA5800800C63D25 /* meiQuanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DFE2C3351AB86E1D00BBD65D /* ext */,
 				6D19ECC21AA70D9900A9F55C /* Resources */,
 				6D1292A81AA581A200C63D25 /* mm.jpg */,
 				6D1292861AA5800800C63D25 /* AppDelegate.h */,
@@ -204,6 +224,7 @@
 		6D19ECC21AA70D9900A9F55C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DFE2C34C1AB86E3400BBD65D /* test.png */,
 				6D19ECC41AA70D9900A9F55C /* Filters */,
 			);
 			path = Resources;
@@ -221,6 +242,40 @@
 				6D19ECCB1AA70D9900A9F55C /* yellow-red.acv */,
 			);
 			path = Filters;
+			sourceTree = "<group>";
+		};
+		DFE2C3351AB86E1D00BBD65D /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				DFE2C3361AB86E1D00BBD65D /* UIImage-Categories-master */,
+				DFE2C33D1AB86E1D00BBD65D /* ZDStickerView */,
+			);
+			path = ext;
+			sourceTree = "<group>";
+		};
+		DFE2C3361AB86E1D00BBD65D /* UIImage-Categories-master */ = {
+			isa = PBXGroup;
+			children = (
+				DFE2C3371AB86E1D00BBD65D /* UIImage+Alpha.h */,
+				DFE2C3381AB86E1D00BBD65D /* UIImage+Alpha.m */,
+				DFE2C3391AB86E1D00BBD65D /* UIImage+Resize.h */,
+				DFE2C33A1AB86E1D00BBD65D /* UIImage+Resize.m */,
+				DFE2C33B1AB86E1D00BBD65D /* UIImage+RoundedCorner.h */,
+				DFE2C33C1AB86E1D00BBD65D /* UIImage+RoundedCorner.m */,
+			);
+			path = "UIImage-Categories-master";
+			sourceTree = "<group>";
+		};
+		DFE2C33D1AB86E1D00BBD65D /* ZDStickerView */ = {
+			isa = PBXGroup;
+			children = (
+				DFE2C33E1AB86E1D00BBD65D /* SPGripViewBorderView.h */,
+				DFE2C33F1AB86E1D00BBD65D /* SPGripViewBorderView.m */,
+				DFE2C3401AB86E1D00BBD65D /* ZDStickerView.bundle */,
+				DFE2C3411AB86E1D00BBD65D /* ZDStickerView.h */,
+				DFE2C3421AB86E1D00BBD65D /* ZDStickerView.m */,
+			);
+			path = ZDStickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,8 +383,10 @@
 			files = (
 				6D19ECCD1AA70D9900A9F55C /* 02.acv in Resources */,
 				6D19ECCE1AA70D9900A9F55C /* 06.acv in Resources */,
+				DFE2C3471AB86E1D00BBD65D /* ZDStickerView.bundle in Resources */,
 				6D19ECD11AA70D9900A9F55C /* crossprocess.acv in Resources */,
 				6D12928E1AA5800800C63D25 /* Main.storyboard in Resources */,
+				DFE2C34D1AB86E3400BBD65D /* test.png in Resources */,
 				6D1292931AA5800800C63D25 /* LaunchScreen.xib in Resources */,
 				6D19ECD31AA70D9900A9F55C /* yellow-red.acv in Resources */,
 				6D19ECD21AA70D9900A9F55C /* purple-green.acv in Resources */,
@@ -356,8 +413,13 @@
 			files = (
 				6D12928B1AA5800800C63D25 /* ViewController.m in Sources */,
 				6D1292881AA5800800C63D25 /* AppDelegate.m in Sources */,
+				DFE2C3481AB86E1D00BBD65D /* ZDStickerView.m in Sources */,
+				DFE2C3461AB86E1D00BBD65D /* SPGripViewBorderView.m in Sources */,
+				DFE2C3451AB86E1D00BBD65D /* UIImage+RoundedCorner.m in Sources */,
 				6D19ECDB1AA71E1E00A9F55C /* SimpleImageViewController.m in Sources */,
+				DFE2C3431AB86E1D00BBD65D /* UIImage+Alpha.m in Sources */,
 				6D1292851AA5800800C63D25 /* main.m in Sources */,
+				DFE2C3441AB86E1D00BBD65D /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
